@@ -1,5 +1,5 @@
 import Card from "../UI/Card";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { cartActions } from "../../store/cart-slice";
 import classes from "./ProductItem.module.css";
 
